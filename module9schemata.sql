@@ -1,5 +1,6 @@
 --drop tables if exist if decide to run entire code
 --uncomment when needed
+--CREATE DATABASE module9db;
 --DROP TABLE IF EXISTS dept CASCADE;
 --DROP TABLE IF EXISTS titles CASCADE;
 --DROP TABLE IF EXISTS employees CASCADE;
