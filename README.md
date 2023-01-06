@@ -1,6 +1,6 @@
 # sql-challenge
 Module 9 Challenge for U of T Data Analytics Bootcamp<br>
-database populated with csv files found in m9-starter-code folder
+Database populated with csv files found in m9-starter-code folder
 <br>
 
 <br>
