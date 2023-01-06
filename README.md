@@ -8,8 +8,8 @@ Module 9 Challenge for U of T Data Analytics Bootcamp
 <br>
 
 Requirements
-  --Data Modeling (10 points)--<br><br>
-1.Entity Relationship Diagram is included or table schemas provided for all tables (10 points)<br>
+  --Data Modeling (10 points)--<br>
+1.Entity Relationship Diagram is included or table schemas provided for all tables (10 points)<br><br>
   --Data Engineeing (70 points)--<br><br>
 1.All required columns are defined for each table (10 points)<br>
 2.Columns are set to the correct data type (10 points)<br>
@@ -17,7 +17,7 @@ Requirements
 4.Correctly references related tables (10 points)<br>
 5.Tables are correctly related using Foreign Keys (10 points)<br>
 6.Correctly uses NOT NULL condition on necessary columns (10 points)<br>
-7.Accurately defines value length for columns (10 points)<br>
+7.Accurately defines value length for columns (10 points)<br><br>
   --Data Analysis (20 points)--<br><br>
 1.List the employee number, last name, first name, sex, and salary of each employee (2 points)<br>
 2.List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)<br>
