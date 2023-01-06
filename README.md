@@ -3,8 +3,6 @@ Module 9 Challenge for U of T Data Analytics Bootcamp
 
 <br>
 
-//
-
 <br>
 
 Requirements<br><br>
