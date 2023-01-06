@@ -55,31 +55,31 @@ SHOW datestyle;
 
 --insert data to tables from csv files
 COPY dept(dept_no, dept_name)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\departments.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\departments.csv'
 	DELIMITER ','
 	CSV HEADER;
 	
 COPY titles(title_id, title)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\titles.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\titles.csv'
 	DELIMITER ','
 	CSV HEADER;
 	
 COPY employees(emp_no, emp_title_id, birthdate, first_name, last_name, sex, hire_date)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\employees.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\employees.csv'
 	DELIMITER ','
 	CSV HEADER;
 
 COPY dept_emp (emp_no, dept_no)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\dept_emp.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\dept_emp.csv'
 	DELIMITER ','
 	CSV HEADER;
 	
 COPY dept_man (dept_no, emp_no)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\dept_manager.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\dept_manager.csv'
 	DELIMITER ','
 	CSV HEADER;
 	
 COPY salaries (emp_no, salary)
-	FROM 'C:\Users\elsai\sql-challenge\m9-starter-code\data\salaries.csv'
+	FROM 'C:\Users\elsai\sql-challenge-repo\m9-starter-code\data\salaries.csv'
 	DELIMITER ','
 	CSV HEADER;
